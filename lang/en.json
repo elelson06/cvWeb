@@ -1,0 +1,40 @@
+{
+    "aboutMe": "I am a developer passionate about technology and agile methodologies, with experience in various technical and leadership roles.",
+    "profiles": {
+        "projectLeader": {
+            "title": "Project Leader / Scrum Master / Product Owner",
+            "description": "Experience in team leadership, facilitating agile processes, and making strategic decisions. Implementation of Scrum and Kanban methodologies to improve productivity."
+        },
+        "analystProgrammer": {
+            "title": ".NET Analyst Programmer",
+            "description": "Specialized in developing enterprise applications using the .NET stack, including C#, ASP.NET, and SQL Server. Skilled in analyzing and optimizing complex systems."
+        },
+        "fullstackDeveloper": {
+            "title": "Fullstack Developer",
+            "description": "Developer with skills in frontend (HTML5, CSS3, JavaScript) and backend (Node.js, Express, relational and non-relational databases). Experience in building responsive and scalable web applications."
+        }
+    },
+    "technologies": {
+        "title": "Languages ​​and Technologies",
+        "programLanguages": "Programming Languages",
+        "frameworks": "Frameworks",
+        "tools": "Tools"
+    },
+    "softSkills": {
+        "title": "Soft Skills",
+        "teamLeadership": "Team leadership",
+        "effectiveCommunication": "Effective communication",
+        "teamWork": "Teamwork and collaboration",
+        "troubleshooting": "Troubleshooting",
+        "timeManagement": "Time management",
+        "criticalThinking": "Critical thinking"
+    },
+    "experience": {
+        "title": "Work Experience"
+    },
+    "languages": {
+        "title": "Languages",
+        "languageES":"Native Spanish",
+        "languageEN":"English B2+ (advanced intermediate)"
+    }
+}

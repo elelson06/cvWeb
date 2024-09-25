@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV Online</title>
+    <!-- Vinculamos el archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css'><link rel="stylesheet" href="./style.css"> -->
+</head>
+<body>
+
+    <header>
+        <!-- Menú de selección de idioma -->
+        <div id="language-selector">
+            <select id="languageDropdown" onchange="changeLanguage()">
+                <option value="es">🇪🇸 ES</option>
+                <option value="en">🇺🇸 EN</option>
+            </select>
+        </div>
+        
+        <div id="header-card">
+            <img src="img/FotoPerfil.PNG" alt="Foto de Perfil">
+            <h1>Andres Ventura</h1>
+        </div>
+        <div id="header-about-me">
+            <p id="about-me">Soy un desarrollador apasionado por la tecnología y las metodologías ágiles, con experiencia en varios roles técnicos y de liderazgo.</p>
+        </div>
+        
+        
+    </header>
+
+    <main>
+        <div id="skills">
+            <!-- Sección de Lenguajes y Tecnologías -->
+            <section id="technologies">
+                <h2 id="tech-title">Lenguajes y Tecnologías</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <h3 id="programLanguages">Lenguajes de Programación</h3>
+                        <div class="tech-icons">
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" class="tech-icon">
+                                <span class="tooltiptext">C#</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-icon">
+                                <span class="tooltiptext">JavaScript</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" class="tech-icon">
+                                <span class="tooltiptext">HTML5</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" class="tech-icon">
+                                <span class="tooltiptext">CSS3</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" alt="SQL" class="tech-icon">
+                                <span class="tooltiptext">SQL SERVER</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="SQL" class="tech-icon">
+                                <span class="tooltiptext">MySQL</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="SQL" class="tech-icon">
+                                <span class="tooltiptext">PostgresSQL</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="SQL" class="tech-icon">
+                                <span class="tooltiptext">Oracle</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" class="tech-icon">
+                                <span class="tooltiptext">Python</span>
+                            </div>
+                            <div class="tooltip">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" class="tech-icon">
+                                <span class="tooltiptext">Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <h3 id="frameworks">Frameworks</h3>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt=".Net" class="tech-icon">
+                            <span class="tooltiptext">.Net</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" class="tech-icon">
+                            <span class="tooltiptext">Flask</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="Spring" class="tech-icon">
+                            <span class="tooltiptext">Spring</span>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <h3 id="tools">Herramientas</h3>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" class="tech-icon">
+                            <span class="tooltiptext">Git</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg" alt="Gitlab" class="tech-icon">
+                            <span class="tooltiptext">Gitlab</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" class="tech-icon">
+                            <span class="tooltiptext">Docker</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" alt="Kubernetes" class="tech-icon">
+                            <span class="tooltiptext">Kubernetes</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-original.svg" alt="Visual Studio" class="tech-icon">
+                            <span class="tooltiptext">Visual Studio</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" class="tech-icon">
+                            <span class="tooltiptext">VS Code</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" class="tech-icon">
+                            <span class="tooltiptext">Postman</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="Jenkins" class="tech-icon">
+                            <span class="tooltiptext">Jenkins</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" class="tech-icon">
+                            <span class="tooltiptext">SonarQube</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ohmyzsh/ohmyzsh-original.svg" alt="OhMyZsh" class="tech-icon">
+                            <span class="tooltiptext">OhMyZsh</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" alt="Jira" class="tech-icon">
+                            <span class="tooltiptext">Jira</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/confluence/confluence-original.svg" alt="Confluence" class="tech-icon">
+                            <span class="tooltiptext">Confluence</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/trello/trello-original.svg" alt="Trello" class="tech-icon">
+                            <span class="tooltiptext">Trello</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección de Habilidades Blandas -->
+            <section id="soft-skills">
+                <h2 id="softSkills-title">Habilidades Blandas</h2>
+                <ul>
+                    <li>👥 <span id="teamLeadership">Liderazgo de equipos</span></li>
+                    <li>🗣️ <span id="effectiveCommunication">Comunicación efectiva</span></li>  
+                    <li>🤝 <span id="teamWork">Trabajo en equipo y colaboración</span></li>
+                    <li>🧠 <span id="troubleshooting">Resolución de problemas</span></li>
+                    <li>⏱️ <span id="timeManagement">Gestión del tiempo</span></li>
+                    <li>💡 <span id="criticalThinking">Pensamiento crítico</span></li>
+                </ul>
+            </section>
+            <!-- Sección de Idiomas -->
+            <section id="languages">
+                <h2 id="languages-title">Idiomas</h2>
+                <ul>
+                    <li>:es <span id="languageES">Español nativo</span></li>
+                    <li>:en <span id="languageEN">Ingles B2+ (intermedio avanzado)</span></li>  
+                </ul>
+            </section>
+        </div>
+        <!-- Sección de Experiencia Laboral -->
+        <section id="experience">
+            <h2 id="experience-title">Experiencia Laboral</h2>
+
+            <div class="profile-selector">
+                <button id="projectLeader" class="profile-button" onclick="showProfile('projectLeader')">Líder de Proyecto / Scrum Master / Product Owner</button>
+                <button id="analystProgrammer" class="profile-button" onclick="showProfile('analystProgrammer')">Analista Programador .NET</button>
+                <button id="fullstackDeveloper" class="profile-button" onclick="showProfile('fullstackDeveloper')">Fullstack Developer</button>
+            </div>
+
+            <div id="profile-content">
+                <h3>Selecciona un perfil para ver más detalles</h3>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Vinculamos el archivo JS -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

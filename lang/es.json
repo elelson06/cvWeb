@@ -1,0 +1,47 @@
+{
+    "aboutMe": "Soy un desarrollador apasionado por la tecnología y las metodologías ágiles, con experiencia en varios roles técnicos y de liderazgo.",
+    "profiles": {
+        "projectLeader": {
+            "title": "Líder de Proyecto / Scrum Master / Product Owner",
+            "description": "Experiencia en liderazgo de equipos, facilitación de procesos ágiles y toma de decisiones estratégicas. Implementación de metodologías Scrum y Kanban para mejorar la productividad. Experiencia en la Gestión de Proyectos, asimilando con profesionalidad las exigencias y responsabilidades que éste requiere. Gran capacidad de comunicación y trabajo en equipo, como así también para la organización, deﬁnición, administración y asignación de las diferentes tareas a realizar dentro de un grupo humano de trabajo",
+            "proyectos": "- Proyectos para diferentes Ministerios implementando metodologías agiles y tecnologias como .Net C#, Bootstrap, Materialize CSS, Base de Datos Oracle - Scrum Master/Product Owner en un equipo de 6 personas para un cliente de España. Las tecnologías/herramientas utilizadas: Angular, Java, procesos jBPM, Kubernetes, Docker, API, Jenkins, SonarQube, Gitlab, JIRA, Confluence."
+        },
+        "analystProgrammer": {
+            "title": "Analista Programador .NET",
+            "description": "Desarrollo y Análisis Funcional con tecnologías .NET ( C#, ASPX, C++, VB ) utilizando las herramientas propuestas por Microsoft como Visual Studio 2015 y TFS (Team Foundation Server). Desarrollo de aplicaciones web, de escritorio y también WEB APIs y Servicios REST y SOAP utilizando modelado Web Forms y MVC,Base de Datos y lenguaje SQL habiendo trabajado con diferentes motores como Oracle, SQL Server, MySQL y Postgres. Utilizando Queries complejas, realizando Tunning, estructurando paquetes ( Oracle Packages ) , procedimientos y funciones, Procesos ETL y más. Análisis de Datos, Reporting Services. Experiencia en Análisis Funcional trabajando con diferentes Clientes, adapatandome rápida y exitosamente a las diferentes metodologías, formalidades y demás características propias de cada uno de ellos.",
+            "proyectos": "- Desarrollo de Sistemas a medida para empresa dedicada al servicios de alimentación y gestión de instalaciones de grandes empresas utilizando tecnología .NET (C#, ASPX, Web Forms, Framework 4 y 4.5 ) y Base de Datos SQL Server. - Migración de Sistema desarrollado en COBOL con archivos planos a .NET (C#, ASPX, Web Forms, Framework 4 y 4.5 ) con Base de Datos MySQL para una Mutual. - Cliente de sector Banca de España. Tecnologias y herramientas utilizadas: .NET Framework, C#, WinForms, Oracle. Metodologia Agil."
+        },
+        "fullstackDeveloper": {
+            "title": "Fullstack Developer",
+            "description": "Como promagador fullstack he participado en diferentes proyectos, mas involucrado en la parte Back que en la Front, con tecnologias como C#, Java, Mobile (Android y BlackBerry), COBOL,    Base de Datos (SQL Server, MySQL, Postgres), HTML5, CSS3, JS. Actualmente aprendiendo mas, como Python, y reforzando aun mas la parte Front.",
+            "proyectos": "- Migración de una App de Alertas de Android a BlackBerry. - Proyecto de Internacionalización de Sistema con tecnología Java Web. - Proyecto de Gestion de inventarios y incidencias (Angular, HTML5, CSS3, JS, Java, MySQL)"
+        }
+    },
+    "technologies": {
+        "title": "Lenguajes y Tecnologías",
+        "programLanguages": "Lenguajes de Programación",
+        "frameworks": "Frameworks",
+        "tools": "Herramientas"
+    },
+    "softSkills": {
+        "title": "Habilidades Blandas",
+        "teamLeadership": "Liderazgo de equipos",
+        "effectiveCommunication": "Comunicación efectiva",
+        "teamWork": "Trabajo en equipo y colaboración",
+        "troubleshooting": "Resolución de problemas",
+        "timeManagement": "Gestión del tiempo",
+        "criticalThinking": "Pensamiento crítico"
+    },
+    "experience": {
+        "title": "Experiencia Laboral",
+        "projectLeader": "Líder de Proyecto / Scrum Master / Product Owner",
+        "analyst": "Analista Programador .NET",
+        "fullstack": "Desarrollador Fullstack"
+    },
+    "languages": {
+        "title": "Idiomas",
+        "languageES":"Español nativo",
+        "languageEN":"Ingles B2+ (intermedio avanzado)"
+    }
+    
+}

@@ -1,0 +1,193 @@
+/* CSS para estilizar la landing page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header img {
+    border-radius: 50%;
+    width: 170px;
+    height: 190px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+#header-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+
+#header-about-me {
+
+}
+
+/* Agregamos estilo para el menú de idioma en la esquina superior derecha */
+#language-selector {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#languageDropdown {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#about-me {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#skills {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo para la sección de habilidades duras */
+#hard-skills, #soft-skills, #technologies, #experience, #languages {
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tech-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.tech-item {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.tech-item h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para los íconos y tooltips */
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tech-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Estilo del tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Estilo para los botones del perfil */
+.profile-selector {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.profile-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el contenido del perfil */
+#profile-content {
+    margin: 40px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(2px);
+    padding: 35px;
+    box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+}
+
+#profile-content h3 {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+#profile-content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
